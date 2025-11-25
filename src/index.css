@@ -21,9 +21,18 @@ a {
   text-decoration:none;
   color:inherit;
 }
+.container {
+  width:100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+ /*Utilities */
 
 .d-flex {
   display:flex;
+}
+.flex-direction-column {
+  flex-direction: column;
 }
 .align-center {
   align-items: center;
@@ -32,6 +41,26 @@ a {
 .justify-content-center {
   justify-content: center;
 }
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+
 .py-20 {
   padding: 20px;
+}
+.py-40 {
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+.text-center {
+  text-align: center;
+}
+.color-white {
+  color:white;
 }

@@ -3,7 +3,7 @@ import style from "./Header.module.css";
 
 export default function Header() {
     return (
-        <header className="d-flex align-center justify-content-center">
+        <header className="d-flex align-center justify-content-center mt-20">
             <img src={Logo} alt="" />
             <nav className={style.nav}>
                 <ul className="py-20">

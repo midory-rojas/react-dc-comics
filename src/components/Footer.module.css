@@ -1,0 +1,23 @@
+.col {
+    width: 20%;
+}
+
+.background {
+    background-image: url("../assets/img/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 450px;
+}
+
+a {
+    color: grey;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+
