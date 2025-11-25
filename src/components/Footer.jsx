@@ -101,8 +101,12 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
+                        <div className={style.col40}>
+                            <div className={style.dc}></div>
+                        </div>
                     </div>
                 </div>
+
                 <div className={`py-20 ${style.footer}`}>
                     <div className="container d-flex justify-content-space-between align-center">
                         <div className={style.btn}>SIGN-UP NOW!</div>

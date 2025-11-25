@@ -1,7 +1,9 @@
 .col {
     width: 20%;
 }
-
+.col40 {
+    width:40%;
+}
 .background {
     background-image: url("../assets/img/footer-bg.jpg");
     background-size: cover;
@@ -9,8 +11,12 @@
     background-position: center;
     min-height: 450px;
 }
-.background-dc {
+.dc {
     background-image: url("../assets/img/dc-logo-bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 450px;
 }
 
 a {
