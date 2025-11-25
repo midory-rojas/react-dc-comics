@@ -9,6 +9,9 @@
     background-position: center;
     min-height: 450px;
 }
+.background-dc {
+    background-image: url("../assets/img/dc-logo-bg.png");
+}
 
 a {
     color: grey;
@@ -16,6 +19,18 @@ a {
 
 li {
     margin-bottom: 10px;
+}
+
+.footer{
+    background-color: rgb(31, 30, 30);
+    color:white;
+}
+
+.btn {
+    display:inline-block;
+    padding: 5px 5px;
+    font-size: 1rem;
+    border:1px solid rgb(77, 140, 222);  
 }
 
 

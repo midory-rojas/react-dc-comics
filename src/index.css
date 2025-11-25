@@ -23,7 +23,7 @@ a {
 }
 .container {
   width:100%;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
  /*Utilities */
@@ -42,6 +42,10 @@ a {
   justify-content: center;
 }
 
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -50,9 +54,9 @@ a {
   margin-bottom: 20px;
 }
 
-
 .py-20 {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .py-40 {
   padding-top:40px;
@@ -64,3 +68,5 @@ a {
 .color-white {
   color:white;
 }
+
+
