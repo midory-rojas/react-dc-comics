@@ -3,11 +3,11 @@ import style from "./Header.module.css";
 
 export default function Header() {
     return (
-        <header className="py-20">
+        <header className="py-10">
             <div className="container d-flex justify-content-space-between align-center">
-                <img src={Logo} alt="" />
+                <img className="logo"src={Logo} alt="Logo DC Comics" />
                 <nav className={style.nav}>
-                    <ul className="py-20">
+                    <ul className="py-10">
                         <li>
                             <a href="">CHARACTERS</a>
                         </li>
