@@ -119,6 +119,12 @@ header {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
+.btn {
+    display:inline-block;
+    background-color:  rgb(42, 100, 176); 
+    padding: 8px 14px;
+    color:white; 
+}
 
 
 
