@@ -3,12 +3,12 @@ import FumettiCard from "./FumettiCard";
 
 export default function FumettiList() {
     return (
-        <div className="d-flex wrap gap-10">
+        <div className="d-flex wrap gap-10 text-center">
             {comics.map((curComic) => (
                 <FumettiCard
                     key={curComic.id}
                     image={curComic.thumb}
-                    series={curComic.series}
+                    title={curComic.title}
                 />
             ))}
         </div>
